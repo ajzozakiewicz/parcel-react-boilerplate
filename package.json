@@ -1,0 +1,30 @@
+{
+  "name": "parcel-react-boilerplate",
+  "version": "1.0.0",
+  "description": "Basic example of React.js setup with Parcel js",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajzozakiewicz/parcel-react-boilerplate.git"
+  },
+  "author": "AJ Zozakiewicz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajzozakiewicz/parcel-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/ajzozakiewicz/parcel-react-boilerplate#readme",
+  "dependencies": {
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "semantic-ui-css": "2.3.1",
+    "semantic-ui-react": "0.79.1",
+    "static": "2.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "4.8.3",
+    "parcel-bundler": "1.7.1"
+  }
+}
