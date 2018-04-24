@@ -1,30 +1,32 @@
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
-import image from './../static/john_snow.png'
 
-const CardExampleCard = () => (
+const CardExampleCard = ({ name, image, date, friends, children}) => {
+  console.log(image)
+  return (
   <Card>
     <Image src={image} />
     <Card.Content>
       <Card.Header>
-        John Snow
+        {name}
       </Card.Header>
       <Card.Meta>
         <span className='date'>
-          Joined 2016
+          Joined {date}
         </span>
       </Card.Meta>
       <Card.Description>
-        Jon Snow, born Aegon Targaryen, is the son of Lyanna Stark and Rhaegar Targaryen, the late Prince of Dragonstone
+        {children}
       </Card.Description>
     </Card.Content>
     <Card.Content extra>
       <a>
         <Icon name='user' />
-        22 Friends
+        {friends} Friends
       </a>
     </Card.Content>
   </Card>
 )
+}
 
 export default CardExampleCard
